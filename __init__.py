@@ -21,9 +21,9 @@ from bpy.utils import register_class, unregister_class
 
 bl_info = {
     "name": "GTA DragonFF",
-    "author": "Parik",
-    "version": (0, 0, 2),
-    "blender": (2, 80, 0),
+    "author": "MrMoonKr" "Parik",
+    "version": (0, 1, 0),
+    "blender": (4, 4, 0),
     "category": "Import-Export",
     "location": "File > Import/Export",
     "description": "Importer and Exporter for GTA Formats"
@@ -142,3 +142,9 @@ def unregister():
     # Unregister all the classes
     for cls in _classes:
         unregister_class(cls)
+
+if __name__ == "__main__":
+    register()
+if __name__ == "<run_path>":\
+    register()
+    
